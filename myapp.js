@@ -25,7 +25,7 @@ const csvWriter = createCsvWriter({
 const sleep = (milliseconds) => {
   return new Promise(resolve => setTimeout(resolve, milliseconds))
 }
-var access_token="BQBNCK4v2tx2_hYxE3nUF3uHstCvlXDC14JZQ9XERApWCkFXO0ry3uW2-ee8oaiSbCaH06Zsm5-8-pTlq16hNg2u942Qa3EkKc4Ga6_VE4I0pbCRD3wIxlWea_GklS_9jL7kpFefWEMHl2eKG3Oj_bkheCQ";
+var access_token="accesstoken";
 
 // use the access token to access the Spotify Web API
 // request.get(options, function(error, response, body) {
