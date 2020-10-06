@@ -45,8 +45,8 @@ const mySongsFeatures = createCsvWriter({
 var code = '';
 var res; var pList = []; var dat; var a = [];
 var ids = '';
-var clientid = '17d46850a53d4966a9c67e2639076714';
-var clientsecret = '2bb8eb5bb6014ba8a691887978a12342';
+var clientid = 'clientid';
+var clientsecret = 'clientsecret';
 var tempvar1;
 const getToken = async () => {
     var tempvar2;
